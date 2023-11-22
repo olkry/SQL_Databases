@@ -49,7 +49,7 @@ select get_age('1990-04-08', NOW()) as 'Возраст'
 **/
 
 -- Вывести цифры в убывающем порядке от введённой 
-/**
+
 drop procedure if exists print_num;
 delimiter $$
 create procedure print_num
@@ -68,4 +68,4 @@ select result;
 end $$
 
 call print_num(15)
-**/
+
